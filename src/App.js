@@ -6,6 +6,8 @@ function App() {
      <>
        <h1> SOS PET HERE</h1>
        <p>Teste Projeto</p>
+
+       <p>Segundo teste</p>
        </>
     
   );

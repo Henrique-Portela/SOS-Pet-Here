@@ -10,6 +10,7 @@ function App() {
        <p>Segundo teste</p>
 
        <p>terceiro teste</p>
+       <p>quarto teste</p>
        </>
     
   );

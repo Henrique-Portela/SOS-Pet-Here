@@ -12,5 +12,3 @@ function App() {
 }
 
 export default App;
-// [{name , cor, idade, imagem, raça}]
-

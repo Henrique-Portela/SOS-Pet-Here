@@ -8,6 +8,8 @@ function App() {
        <p>Teste Projeto</p>
 
        <p>Segundo teste</p>
+
+       <p>terceiro teste</p>
        </>
     
   );

@@ -1,5 +1,6 @@
 
 import './App.css';
+import { Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
        <p>Segundo teste</p>
 
        <p>terceiro teste</p>
+       <p>quarto teste</p>
        </>
     
   );

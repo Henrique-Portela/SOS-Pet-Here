@@ -5,6 +5,11 @@ import AnunciarAdocao from './pages/AnunciarAdocao/AnunciarAdocao';
 import AnunciarAnimalPerdido from './pages/AnunciarAnimalPerdido/AnunciarAnimalPerdido';
 
 
+
+import './App.css';
+import { Routes, Route } from 'react-router-dom'
+
+
 function App() {
   return (
     <> 
@@ -24,7 +29,10 @@ function App() {
     <Route path="/anunciar" element={ <AnunciarAdocao /> } />
     <Route path="/anunciar-perdido" element={ <AnunciarAnimalPerdido /> } />
 
+
     </Routes>
+
+
 
     </>
   )

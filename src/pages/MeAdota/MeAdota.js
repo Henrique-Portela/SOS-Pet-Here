@@ -1,6 +1,5 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import { useLoaderData } from 'react-router-dom'
 import PetCard from '../../components/PetCard/PetCard'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'

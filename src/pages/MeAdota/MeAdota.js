@@ -47,5 +47,5 @@ const MeAdota = () => {
       </Row>
     </Container>
   )
-}
+} 
 export default MeAdota

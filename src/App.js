@@ -6,7 +6,7 @@ import AnunciarAnimalPerdido from './pages/AnunciarAnimalPerdido/AnunciarAnimalP
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import './App.css';
 
 
 
@@ -23,6 +23,7 @@ function App() {
     <Route path="/anunciar" element={ <AnunciarAdocao /> } />
     <Route path="/anunciar-perdido" element={ <AnunciarAnimalPerdido /> } />
     
+
 
     </Routes>
     < Footer />

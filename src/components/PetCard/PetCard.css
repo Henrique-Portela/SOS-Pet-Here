@@ -1,6 +1,7 @@
-.list-group-item{
- padding: 15px;
- background-color:blueviolet
+.list-group-item.card{
+ padding: 5px;
+ width: 20;
+ 
  
 
  

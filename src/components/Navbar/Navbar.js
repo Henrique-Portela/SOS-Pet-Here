@@ -6,12 +6,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-
-
-
-
 function NavScroll() {
-    return (
+    return (  
+      
       <Navbar bg="light" expand="lg">
         <Container fluid>
           <Navbar.Brand href="#">Sos Pet Here</Navbar.Brand>
@@ -23,7 +20,7 @@ function NavScroll() {
               navbarScroll
 
             >
-              <Nav.Link href="/">Me Adota</Nav.Link>
+              <Nav.Link href="/">Adote</Nav.Link>
               <Nav.Link href="/buscar">Encontre Animal Perdido</Nav.Link>
               <Nav.Link href="/anunciar">Anunciar Adoção</Nav.Link>
               <Nav.Link href="/perdido">Anunciar Animal Perdido</Nav.Link>

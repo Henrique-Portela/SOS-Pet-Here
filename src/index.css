@@ -1,12 +1,24 @@
-* {
-  padding: 0;
-  margin:0;
-  box-sizing:border-box;
-  font-family:'Open Sans',sans-serif
+.flex-footer {
+  display: flex;
+  flex-direction: row;
 }
 
-html,
-body{
-  background-color:#efefef;
-  height: 100%;
+.footer-social,
+.footer-organization,
+.footer-information,
+.footer-donate,
+.footer-newsletter {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 30px 20px;
+  color: #706e6e;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+.flex-footer h4 {
+  margin-bottom: 30px;
 }

@@ -36,10 +36,8 @@ const MeAdota = () => {
                 sexo={petAtual.gender}
                 raca={petAtual.breed}
                 img={petAtual.imageUrl}
-                tipo={petAtual.petType}
-                contato={petAtual.contact}
-                local={petAtual.location}
-                data={petAtual.date}
+                id={petAtual._id}
+                
               />
             </Col>
           )

@@ -7,7 +7,7 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-
+import InfoPet from './pages/InfoPet/InfoPet';
 
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
     <Route path="/buscar" element={ <EncontreAnimalPerdido /> } />
     <Route path="/anunciar" element={ <AnunciarAdocao /> } />
     <Route path="/anunciar-perdido" element={ <AnunciarAnimalPerdido /> } />
+    <Route path="/pet/:infopetId" element={<InfoPet /> } />
     
 
 

@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import InfoPet from './pages/InfoPet/InfoPet';
+import GerenciarAnimais from './pages/GerenciarAnimais/GerenciarAnimais';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
     <Route path="/anunciar" element={ <AnunciarAdocao /> } />
     <Route path="/anunciar-perdido" element={ <AnunciarAnimalPerdido /> } />
     <Route path="/pet/:infopetId" element={<InfoPet /> } />
+    <Route path="/gerenciar-animais" element={ <GerenciarAnimais /> } />
     
 
 

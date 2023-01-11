@@ -7,6 +7,8 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
 function NavScroll() {
+
+
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
@@ -22,6 +24,7 @@ function NavScroll() {
             <Nav.Link href="/buscar">Encontre Animal Perdido</Nav.Link>
             <Nav.Link href="/anunciar">Anunciar Adoção</Nav.Link>
             <Nav.Link href="/perdido">Anunciar Animal Perdido</Nav.Link>
+            <Nav.Link href="/gerenciar-animais">Gerenciar Animais</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
@@ -30,12 +33,13 @@ function NavScroll() {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+           <Button variant="outline-success">Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
     </Navbar>
   );
 }
+
 
 export default NavScroll;

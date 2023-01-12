@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react'
 const apiURL = 'https://ironrest.cyclic.app/sos_pet_here'
 
 const EditPet = () => {
-  const [title, setTitle] = useState('')
+  const [title, setTitle, pet] = useState('')
   
     return (
        

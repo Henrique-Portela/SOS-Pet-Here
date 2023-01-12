@@ -1,8 +1,15 @@
 .list-group-item.card{
- padding: 5px;
- width: 20;
- 
- 
+padding: 3px;
+ width: 10;
+ color:#808080;
+}
 
- 
+.card-link {
+color: #fff;
+background-color: #34bbbf;
+border-radius: 10px;
+margin: 0px;
+padding: 13px;
+
+
 }

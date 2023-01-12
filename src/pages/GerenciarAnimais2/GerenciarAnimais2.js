@@ -14,13 +14,13 @@ const GerenciarAnimais2 = () => {
   useEffect(() => {
     axios.get(apiUrl)
         .then(response => {
-            setPet(response.data)
+            setPet([...response.data])
         })
         .catch(err => console.log(err))
 }, [refresh])
 
-  const deletePet = pet => {
-    axios.delete(`https://ironrest.cyclic.app/sos_pet_here${pet._id}`)
+   function deletePet(id) {
+    axios.delete(`https://ironrest.cyclic.app/sos_pet_here/${id}`)
         .then(response => {
             setRefresh(!refresh)
         })

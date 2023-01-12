@@ -1,16 +1,14 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import { Link } from 'react-router-dom';
 
 
 
 function GerenciarAnimais() {
-
-        
-
     return (
-        <> 
-      <Form>
+        <>                                     
+      <Form className="submit">
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
           <Form.Control type="email" placeholder="Enter email" />
@@ -26,9 +24,13 @@ function GerenciarAnimais() {
         <Form.Group className="mb-3" controlId="formBasicCheckbox">
           <Form.Check type="checkbox" label="Check me out" />
         </Form.Group>
+        <Link to="/gerenciar-animais2">
         <Button variant="primary" type="submit">
           Submit
         </Button>
+
+        </Link>
+       
       </Form>
       </>
     );

@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import InfoPet from './pages/InfoPet/InfoPet';
 import GerenciarAnimais from './pages/GerenciarAnimais/GerenciarAnimais';
+import GerenciarAnimais2 from './pages/GerenciarAnimais2/GerenciarAnimais2';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
     <Route path="/anunciar-perdido" element={ <AnunciarAnimalPerdido /> } />
     <Route path="/pet/:infopetId" element={<InfoPet /> } />
     <Route path="/gerenciar-animais" element={ <GerenciarAnimais /> } />
+    <Route path="/gerenciar-animais2" element={ <GerenciarAnimais2 /> } />
     
 
 

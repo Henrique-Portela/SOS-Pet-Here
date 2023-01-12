@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 
-function GerenciarAnimais() {
+function Cadastro() {
     return (
         <>                                     
       <Form className="submit">
@@ -36,4 +36,4 @@ function GerenciarAnimais() {
     );
   }
   
-  export default GerenciarAnimais;
+  export default Cadastro;

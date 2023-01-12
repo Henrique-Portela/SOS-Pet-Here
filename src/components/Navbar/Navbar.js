@@ -20,10 +20,8 @@ function NavScroll() {
             navbarScroll
           >
             <Nav.Link href="/">Adote</Nav.Link>
-            <Nav.Link href="/buscar">Encontre Animal Perdido</Nav.Link>
             <Nav.Link href="/anunciar">Anunciar Adoção</Nav.Link>
-            <Nav.Link href="/perdido">Anunciar Animal Perdido</Nav.Link>
-            <Nav.Link href="/gerenciar-animais">Gerenciar Animais</Nav.Link>
+            <Nav.Link href="/cadastro-pessoal">Cadastro</Nav.Link>
             <Nav.Link href="/gerenciar-animais2">Gerenciar Animais</Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -35,6 +35,7 @@ const InfoPet = () => {
               alt="pet"
             />
           </div>
+          <div className="imgCadastro"> 
           <Card style={{ width: "15rem" }}>
             <Card.Header>
               <b>Nome:</b> {pet.name}
@@ -54,6 +55,7 @@ const InfoPet = () => {
               </ListGroup.Item>
             </ListGroup>
           </Card>
+          </div>
        
         </>
       ) : (

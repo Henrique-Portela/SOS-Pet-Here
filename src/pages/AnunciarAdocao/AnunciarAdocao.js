@@ -52,22 +52,19 @@ const AnunciarAdocao = () => {
         <div className="col">
           <h1>Anuncie aqui</h1>
           <form onSubmit={handleSubmit}>
-            <div className="form row">
-              <label for="tipodeanimal" className="col-sm-1 col-form-label">
+          <div className="form row">
+              <label for="tipodoanimal" className="col-sm-1 col-form-label">
                 Tipo
               </label>
               <div className="col-sm-3">
-                <select
+                <input
+                  type="text"
                   className="form-control"
+                  placeholder="Tipo do Pet"
                   id="tipo"
                   value={petType}
-                  onchange={(e) => setpetType(e.target.value)}
-                >
-                  <option>-</option>
-                  <option>Cachorro</option>
-                  <option>Gato</option>
-                  <option>Outros</option>
-                </select>
+                  onChange={(e) => setpetType(e.target.value)}
+                />
               </div>
             </div>
             <div className="form row">

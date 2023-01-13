@@ -4,6 +4,7 @@ import PetCard from '../../components/PetCard/PetCard'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import { Link } from "react-router-dom"
 
 const GerenciarAnimais2 = () => {
   const [pet, setPet] = useState([])
@@ -42,7 +43,7 @@ const GerenciarAnimais2 = () => {
                 img={pet.imageUrl}
                 id={pet._id}
               />
-                <button type="button" className="btn btn-info btn-sm">Editar</button>
+                <Link type="button" className="btn btn-info btn-sm" to={`/editarpet/${pet._id}/editar`}>Editar</Link>
                 <button  className="btn btn-danger btn-sm" onClick={() => deletePet(pet._id)}>Deletar</button>
               </div>
 

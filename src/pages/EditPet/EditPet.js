@@ -79,6 +79,10 @@ const EditPet = () => {
           icon: "success",
           button: "OK",
         })
+     })
+
+      .then((response) => {
+        navigate("/gerenciar-animais2")
       })
       .catch((err) => console.log(err));
   }

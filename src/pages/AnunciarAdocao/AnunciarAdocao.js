@@ -13,7 +13,7 @@ const AnunciarAdocao = () => {
   const [age, setage] = useState("");
   const [gender, setgender] = useState("");
   const [breed, setbreed] = useState("");
-  const [contact, setcontact] = useState(0);
+  const [contact, setcontact] = useState();
   const [location, setlocation] = useState("");
   const [date, setdate] = useState("");
   const [imageUrl, setimageUrl] = useState("");

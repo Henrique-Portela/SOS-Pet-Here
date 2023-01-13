@@ -9,24 +9,19 @@ function Cadastro() {
     return (
         <div className="row justify-content-center">                                     
       <Form className="formulario" >
-        <Form.Group className="mb-3 col-10" controlId="formBasicEmail">
+        <Form.Group className="mb-5 col-50" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
           <Form.Control type="email" placeholder="Enter email" />
-          <Form.Text className="text-muted">
-            We'll never share your email with anyone else.
-          </Form.Text>
         </Form.Group>
   
-        <Form.Group className="mb35 col-10" controlId="formBasicPassword">
+        <Form.Group className="mb-5 col-15" controlId="formBasicPassword">
           <Form.Label>Password</Form.Label>
           <Form.Control type="password" placeholder="Password" />
         </Form.Group>
-        <Form.Group className="mb-3 col-10" controlId="formBasicCheckbox">
-          <Form.Check type="checkbox" label="Check me out" />
-        </Form.Group>
+        
         <Link to="/gerenciar-animais2">
         <Button variant="primary" type="submit">
-          Submit
+          Cadastrar
         </Button>
 
         </Link>

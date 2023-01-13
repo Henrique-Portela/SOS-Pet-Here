@@ -50,7 +50,7 @@ const InfoPet = () => {
                 {pet.gender}
               </ListGroup.Item>
               <ListGroup.Item>
-                <b>Raça:</b>
+                <b>Raça: </b>
                 {pet.breed}
               </ListGroup.Item>
               <ListGroup.Item> 
@@ -58,7 +58,7 @@ const InfoPet = () => {
                 {pet.contact} 
                 </ListGroup.Item>
                 <ListGroup.Item> 
-                <b>localização:</b>
+                <b>localização: </b>
                 {pet.location} 
                 </ListGroup.Item> 
             </ListGroup>

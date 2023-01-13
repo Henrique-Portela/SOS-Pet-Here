@@ -43,8 +43,10 @@ const GerenciarAnimais2 = () => {
                 img={pet.imageUrl}
                 id={pet._id}
               />
-                <Link type="button" className="btn btn-info btn-sm" to={`/editarpet/${pet._id}/editar`}>Editar</Link>
-                <button  className="btn btn-danger btn-sm" onClick={() => deletePet(pet._id)}>Deletar</button>
+                <div className="botoes">
+                  <Link type="button" className="btn btn-info btn-sm" to={`/editarpet/${pet._id}/editar`}>Editar</Link>
+                  <button  className="btn btn-danger btn-sm" onClick={() => deletePet(pet._id)}>Deletar</button>
+                </div>
               </div>
 
             </Col>

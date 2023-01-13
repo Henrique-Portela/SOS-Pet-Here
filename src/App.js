@@ -8,6 +8,7 @@ import "./App.css";
 import InfoPet from "./pages/InfoPet/InfoPet";
 import CadastroPessoal from "./pages/Cadastro/Cadastro";
 import GerenciarAnimais2 from "./pages/GerenciarAnimais2/GerenciarAnimais2";
+import EditPet from "./pages/EditPet/EditPet";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/pet/:infopetId" element={<InfoPet />} />
         <Route path="/cadastro-pessoal" element={<CadastroPessoal/>} />
         <Route path="/gerenciar-animais2" element={<GerenciarAnimais2 />} />
+        <Route path="/editarpet/:id/editar" element={<EditPet />} />
       </Routes>
       <Footer />
     </div>

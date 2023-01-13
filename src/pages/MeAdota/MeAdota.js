@@ -24,7 +24,7 @@ const MeAdota = () => {
     }
     fetchPet()
   }, [])
-  console.log(petPets)
+ 
 
   return (
     <Container>

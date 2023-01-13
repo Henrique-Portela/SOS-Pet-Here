@@ -21,12 +21,12 @@ const InfoPet = () => {
   }, [infopetId]);
   console.log(pet);
   return (
-    <div className="row">
+    <div className="row justify-content-center">
       {pet ? (
         <>
-          <div className="col">
-            <img
-              width={400}
+          <div className="col-5">
+            <img className="imgPet" 
+              width="90%"
               src={
                 pet.imageUrl
                   ? pet.imageUrl
@@ -35,7 +35,7 @@ const InfoPet = () => {
               alt="pet"
             />
           </div>
-          <div className="imgCadastro"> 
+          <div className="imgCadastro col-5"> 
           <Card style={{ width: "15rem" }}>
             <Card.Header>
               <b>Nome:</b> {pet.name}
@@ -43,7 +43,7 @@ const InfoPet = () => {
             <ListGroup variant="flush">
               <ListGroup.Item>
                 <b>Idade: </b>
-                {pet.age} meses
+                {pet.age} 
               </ListGroup.Item>
               <ListGroup.Item>
                 <b>Sexo: </b>
@@ -53,6 +53,14 @@ const InfoPet = () => {
                 <b>Raça:</b>
                 {pet.breed}
               </ListGroup.Item>
+              <ListGroup.Item> 
+                <b>Contato: </b>
+                {pet.contact} 
+                </ListGroup.Item>
+                <ListGroup.Item> 
+                <b>localização:</b>
+                {pet.location} 
+                </ListGroup.Item> 
             </ListGroup>
           </Card>
           </div>

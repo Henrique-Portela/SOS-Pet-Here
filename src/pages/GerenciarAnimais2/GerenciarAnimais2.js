@@ -34,7 +34,7 @@ const GerenciarAnimais2 = () => {
           return (
             <Col>
               <div key={pet._id}>
-              <PetCard
+              <PetCard 
                 name={pet.name}
                 idade={pet.age}
                 sexo={pet.gender}

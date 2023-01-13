@@ -29,7 +29,7 @@ const PetCard = ({
       </ListGroup>
       <div className="card-body">
     <Link to={`/pet/${id}`} className="card-link">
-      Conheça minha historia
+      Me adota
     </Link>
   </div>
     </Card>

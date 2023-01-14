@@ -3,8 +3,8 @@
 }
 
 .Logo {
- height: 100%;
- width: 80%;
+ height: 80%;
+ width: 60%;
  margin-top: 20px;
  margin-bottom: 50px;
  left: 50%;
@@ -26,6 +26,10 @@
   justify-content: center;
   margin-top: 1rem;
   
+ }
+
+ .formulario{
+  margin:5%
  }
 
 

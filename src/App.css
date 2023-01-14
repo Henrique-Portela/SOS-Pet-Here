@@ -23,8 +23,8 @@
 .botoes{
   display: flex;
   width: 15rem;
-  justify-content: center;
-  margin-top: 1rem;
+  justify-content:space-evenly;
+  margin-top: .5rem;
   
  }
 

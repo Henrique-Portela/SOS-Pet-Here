@@ -30,6 +30,7 @@ const GerenciarAnimais2 = () => {
 
   return (
     <Container>
+        <h1>Editar Informações do Pet</h1>
       <Row>
         {pet.length && pet.map((pet) => {
           return (
